@@ -5,10 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/about_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index_style.css">
         <title>Daniel's cv</title>
     </head>
 
-    <body>
+    <body id="body">
         <header>
             <nav>
                 <ul>
@@ -19,33 +21,33 @@
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <button>Hire me</button>
+            <a href="/contact.html"><button>Hire me</button></a>
         </header>
 
-
-        <h2>Hi, I am Daniel Tejada-Hernández 👋</h2>
-        <h1>Front-End developer and Biological Engineer</h1>
-        <h3>Let me think the best solutions for you</h3>
-
-        <img src="./img/emoji4.png" alt="Daniel's emoji">
-        
-        
+        <main>
+            <h2>Hi, I am <span id="yellowName">Daniel Tejada-Hernández</span> 👋</h2>
+            <h1>Front-End developer and Biological Engineer</h1>
+            <h3>Let me think the best solutions for you</h3>
+            <img src="./img/emoji4.png" alt="Daniel's emoji">
+        </main>
+    
         <section>
-            <article>
-                <img src="./img/experience.svg" alt="Experience">
-                <span>5+</span>
-                <span>Years of experience</span>
+            <article class="grayBox">
+                    <img src="./img/experience.svg" alt="Experience">
+                    <span id="yellowName">5+</span>
+                    <span>Years of experience</span></div>
+                </div>       
             </article>
 
-            <article>
+            <article class="grayBox">
                 <img src="./img/projects.svg" alt="Projects">
-                <span>3+</span>
+                <span id="yellowName">3+</span>
                 <span>Completed projects</span>
             </article>
 
-            <article>
+            <article class="grayBox">
                 <img src="./img/clients.svg" alt="Clients">
-                <span>5+</span>
+                <span id="yellowName">5+</span>
                 <span>Happy clients</span>
             </article>
         </section>
@@ -53,22 +55,22 @@
         <footer>
             <section>
                 <article>
-                    <p>Daniel Tejada-Hernández</p>
+                    <h4>Daniel Tejada-Hernández</h4>
                     <p>Front-end developer and Engineer</p>
                 </article>
         
                 <article>
-                    <p>Useful Links</p>
+                    <h4>Useful Links</h4>
                     <ul>            
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./About.html">About</a></li>
-                        <li><a href="./Experience.html">Experience</a></li>
+                        <li><a href="./experience.html">Experience</a></li>
                         <li><a href="./Contact.html">Contact</a></li>
                     </ul>
                 </article>
                 
                 <article>
-                    <p>Social Media</p>
+                    <h4>Social Media</h4>
                     <ul>            
                         <li><a href="./index.html">LinkedIn</a></li>
                         <li><a href="./index.html">Github</a></li>
@@ -77,12 +79,12 @@
                 </article>
                 
                 <article>
-                    <p>Hire Me</p>
+                    <h4>Hire Me</h4>
                     <p>Enter your email to get my portafolio and CV</p>
-            
-                    <input type="text" placeholder="afcastanedam@gmail.com">
-                    <a href="/index.html"><img src="./img/Logo_enviar.png" alt=""></a>
-                    <form action="">Email Address</form>
+                    <form action="contact.html" method="get">
+                        <input type="text" placeholder="dtejadah@unal.edu.co">
+                        <a href="/index.html"><img src="./img/Logo_enviar.png" alt=""></a>
+                    </form>
                 </article>
             
             </section>
