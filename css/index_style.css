@@ -57,8 +57,9 @@ button{
 }
 
 .grayBox{
+    border-radius: 25px;
     background-color: #292b2E;
-    height: 120px;
+    height: 130px;
     width: 4160px;
     margin: 24px;
 }
@@ -86,6 +87,14 @@ h2{
     font-size: 32px;
 }
 
+.names{
+    font-size: 20px; 
+}
+
+.numbers{
+    font-size: 36px; 
+}
+
 #yellowName{
     color:#FFB742;
 }
@@ -110,5 +119,13 @@ footer ul{
 
 footer li{
     margin: 2px;
+}
+
+.btn-submit{
+    text-align: end;;
+}
+
+input{
+    border-radius: 25px;
 }
 
